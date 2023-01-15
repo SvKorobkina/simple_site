@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>АТТЕСТАЦИЯ</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>  
+    <header>     
+        <div class="menu">       
+            <p class="menu-logo">ПРОСТОЙ САЙТ</p>
+            <a class="menu-item" href="#1">Первый раздел</a>
+            <a class="menu-item" href="#2">Второй раздел</a> 
+            <a class="menu-item" href="#3">Третий раздел</a>     
+        </div>       
+    </header>
+    <div class="main1" id="1r">
+      <h1 class="main1-h1" id="1"><b>Первый раздел</b> 
+        <button class="main1-button" style="float:right;" onclick="cloneFirstElement()">Клонировать раздел</button>
+      </h1>
+      <img class="main1-img" src=image/shopping-cart.png> 
+      <img class="main1-img" src=image/star.png>   
+      <img class="main1-img" src=image/letter.png>
+      <h3 class="main1-h3"><b>Простой заголовок</b></h3>
+      <h3 class="main1-h3"><b>Простой заголовок</b></h3>
+      <h3 class="main1-h3"><b>Простой заголовок</b></h3>
+      <p class="main1-text">С другой стороны сложившаяся структура организации позволяет выполнять важные задания по разработке новых предложений</p>
+      <p class="main1-text">С другой стороны сложившаяся структура организации позволяет выполнять важные задания по разработке новых предложений</p>
+      <p class="main1-text">С другой стороны сложившаяся структура организации позволяет выполнять важные задания по разработке новых предложений</p>    
+    </div>
+    <hr class="hr-line">
+    <div class="main2">  
+        <h1 class="main2-h1" id="2"><b>Второй раздел</b></h1>
+        <div class="main2-input">
+          <input value="" id="input_1" type="text" style="width: 240px; margin-bottom: 10px;">
+        </div>
+        <div class="main2-button">
+            <button class="add-button" onclick="AddElephant()">Добавить</button>
+            <button class="del-button" onclick="DelElephant()">Удалить</button>
+        </div>
+        <div class="main2-img" style="margin-top: 30px;">
+            <img class="elephant" src=image/elephant.png>
+            <img class="elephant" src=image/elephant.png>
+            <img class="elephant" src=image/elephant.png>
+            <img class="elephant" src=image/elephant.png>
+        </div>   
+    </div>
+    <hr class="hr-line">
+    <div class="main3">   
+        <h1 class="main3-h1" id="3"><b>Третий раздел</b></h1>
+        <div class="main3-input">
+          <input placeholder ="Введите текст, который отобразится ниже" value="" id="input_2" type="text" style="width: 20%; margin-bottom: 10px;">
+          <button class="add-text" onclick="ShowText()">Добавить</button>
+        </div>
+        <p id="text">Здесь будет ваш текст</p>
+        <button class="add-forest" style="float: none;" onclick="AddForest()">Добавить<br>деревья</button>
+        <div class="main3-forest">
+          <img class="forest" src=image/forest.png>
+        </div>
+    <footer>       
+                     
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
